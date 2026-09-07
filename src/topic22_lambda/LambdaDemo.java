@@ -89,6 +89,23 @@ public class LambdaDemo {
         System.out.println("--- 3. Method Reference (::) ---");
         List<String> cities = Arrays.asList("Delhi", "Mumbai", "Bangalore");
         cities.forEach(System.out::println);
+        System.out.println();
+
+        // ====================================================================
+        // 4. LAMBDA WITH STREAM API & STRING MANIPULATION PREVIEW
+        // ====================================================================
+        System.out.println("\n--- 4. Lambda with Stream API (Filtering & Mapping) ---");
+        List<String> names = Arrays.asList("Aman", "Rohan", "Sneha", "Ankit", "Vikram");
+        
+        // Find names starting with 'A', convert to UpperCase and sort:
+        System.out.println("Names starting with 'A' (Uppercase & Sorted):");
+        names.stream()
+             .filter(name -> name.startsWith("A"))    // Lambda Predicate
+             .map(name -> name.toUpperCase())         // Lambda Function
+             .sorted()
+             .forEach(System.out::println);           // Method reference
+
+        System.out.println("\n💡 Note: For Complete Deep-Dive on Stream API vs Loops/Collections, see Topic 24!");
 
         System.out.println("\n==================================================");
         System.out.println("           LAMBDA DEMO COMPLETED!                 ");
