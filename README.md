@@ -31,6 +31,8 @@ Welcome to the comprehensive, self-paced **Java Learning Roadmap**. This reposit
 | **21** | **Multithreading** | `ThreadsDemo.java` | `ThreadsPractice.java` | `Thread` class, `Runnable`, `start()` vs `run()`, Synchronization |
 | **22** | **Lambda Expressions** | `LambdaDemo.java` | `LambdaPractice.java` | `@FunctionalInterface`, `() -> {}`, Method References (`::`) |
 | **23** | **Advanced Sorting** | `AdvancedSortingDemo.java` | `AdvancedSortingPractice.java` | `Comparable` vs `Comparator`, Chained Sorting with Lambdas |
+| **24** | **Stream API** | `StreamApiDemo.java` | `StreamApiPractice.java` | `filter()`, `map()`, `collect()`, Streams vs Loops / Collections |
+| **25** | **JDBC & SQL in Java** | `JdbcDemo.java` | `JdbcPractice.java` | `PreparedStatement`, `ResultSet`, SQL Injection Prevention, ACID Transactions |
 
 ---
 
