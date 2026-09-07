@@ -33,6 +33,7 @@ Welcome to the comprehensive, self-paced **Java Learning Roadmap**. This reposit
 | **23** | **Advanced Sorting** | `AdvancedSortingDemo.java` | `AdvancedSortingPractice.java` | `Comparable` vs `Comparator`, Chained Sorting with Lambdas |
 | **24** | **Stream API** | `StreamApiDemo.java` | `StreamApiPractice.java` | `filter()`, `map()`, `collect()`, Streams vs Loops / Collections |
 | **25** | **JDBC & SQL in Java** | `JdbcDemo.java` | `JdbcPractice.java` | `PreparedStatement`, `ResultSet`, SQL Injection Prevention, ACID Transactions |
+| **26** | **Java Web Apps & Webpages** | `JavaWebAppDemo.java` | `JavaWebAppPractice.java` | HTTP Server, Dynamic HTML Webpages, REST APIs, Form POST Handling |
 
 ---
 
